@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: Poppins;
+}
+
+
+
+.hero-wrapper {
+  background-image: url(../images/BG.jpg);
+}
+
+.fl {
+  display: flex;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 38px;
+}
+
+.header a,
+.logo {
+  color: #EFEFF5;
+}
+
+.logo {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Gotham";
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url(../font/Gotham-Font/Gotham-Bold.otf);
+}
+
+.nav-list {
+  gap: 26px;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+:root {
+  --color-dusty-beige: #CCB9B1;
+  --color-terracotta: #C08267;
+  --color-roasted-coffee: #A0583C;
+  --color-cream: #FFFADA;
+}
+
+.reg-box {
+  gap: 15px;
+}
+
+.btn {
+  background-color: var(--color-roasted-coffee);
+  color: var(--color-cream);
+  border-radius: 8px;
+  padding: 9px 13px;
+  font-size: 12px;
+  font-weight: bold;
+}
