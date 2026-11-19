@@ -10,10 +10,11 @@ body {
   font-family: Poppins;
 }
 
-
-
 .hero-wrapper {
   background-image: url(../images/BG.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .fl {
@@ -70,4 +71,37 @@ body {
   padding: 9px 13px;
   font-size: 12px;
   font-weight: bold;
+}
+
+.banner-title-box {
+  color: var(--color-cream);
+  text-align: center;
+  padding: 155px 0 137px 0;
+  font-family: Roboto;
+}
+
+.banner-title {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.banner-subtitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.banner-explore-box {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 137px;
+}
+
+.explore-btn {
+  background: linear-gradient(90deg, var(--color-roasted-coffee) 10%, var(--color-terracotta) 100%);
+  border-radius: 12px;
+  padding: 10px 66px;
+  color: #FFFFFF;
+  box-shadow: 0px 3px 12px -2px var(--color-terracotta)
 }
